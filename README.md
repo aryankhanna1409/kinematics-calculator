@@ -13,6 +13,16 @@
 
 ---
 
+<div align="center">
+
+![Kinematics demo](assets/demo.gif)
+
+<sub>Animation rendered with the notebook's own <code>RobotArm</code> class (inverse kinematics solved with the numerical Jacobian).</sub>
+
+</div>
+
+---
+
 ## ✨ What it does
 
 A single `RobotArm` class that you configure with a DOF count, link lengths, DH parameters and joint limits, then solve in several ways.
@@ -29,7 +39,7 @@ A single `RobotArm` class that you configure with a DOF count, link lengths, DH 
 
 | Method | Use it for |
 |---|---|
-| **Newton-Raphson with DH** | Any DOF, iterating with an analytical Jacobian from an initial guess |
+| **Newton-Raphson with DH** | Any DOF, iterating from an initial guess with a selectable analytical or numerical Jacobian (the numerical option is the reliable one; the analytical Jacobian is currently buggy) |
 | **Geometric** | 2R and 3R planar arms, with an elbow-up or elbow-down choice |
 | **Algebraic** | 2R and 3R arms |
 
