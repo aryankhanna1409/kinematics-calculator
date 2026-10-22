@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🦾 Kinematics Calculator
+<img src="assets/banner.svg" width="100%" alt="Kinematics Calculator: Forward and inverse kinematics for 1 to 6 DOF arms" />
 
 **Forward and inverse kinematics for robot arms of 1 to 6 degrees of freedom, with 3D animation and a reinforcement-learning experiment.**
 
