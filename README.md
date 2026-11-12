@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" width="100%" alt="Kinematics Calculator: Forward and inverse kinematics for 1 to 6 DOF arms" />
+<picture><source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg" /><img src="assets/banner.svg" width="100%" alt="Kinematics Calculator: Forward and inverse kinematics for 1 to 6 DOF arms" /></picture>
 
 **Forward and inverse kinematics for robot arms of 1 to 6 degrees of freedom, with 3D animation and a reinforcement-learning experiment.**
 
@@ -86,7 +86,7 @@ The interactive simulator asks for a mode (`F` forward, `I` inverse or `T` test)
 
 <div align="center">
 
-<img src="assets/footer.svg" width="100%" alt="Off the menu: from the archive" />
+<picture><source media="(prefers-color-scheme: light)" srcset="assets/footer-light.svg" /><img src="assets/footer.svg" width="100%" alt="Off the menu: from the archive" /></picture>
 
 Built while learning robot kinematics
 
