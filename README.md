@@ -4,10 +4,10 @@
 
 **Forward and inverse kinematics for robot arms of 1 to 6 degrees of freedom, with 3D animation and a reinforcement-learning experiment.**
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-matrix%20math-013243?style=flat-square&logo=numpy&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-3D%20animation-11557C?style=flat-square)
-![Colab](https://img.shields.io/badge/Runs%20in-Google%20Colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3b2416?style=flat-square&logo=python&logoColor=efdfc4)
+![NumPy](https://img.shields.io/badge/NumPy-matrix%20math-8a5a22?style=flat-square&logo=numpy&labelColor=1d120b&logoColor=efdfc4)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-3D%20animation-8a5a22?style=flat-square&labelColor=1d120b)
+![Colab](https://img.shields.io/badge/Runs%20in-Google%20Colab-8a5a22?style=flat-square&logo=googlecolab&labelColor=1d120b&logoColor=efdfc4)
 
 </div>
 
@@ -23,7 +23,7 @@
 
 ---
 
-## ✨ What it does
+## What it does
 
 A single `RobotArm` class that you configure with a DOF count, link lengths, DH parameters and joint limits, then solve in several ways.
 
@@ -49,13 +49,13 @@ A single `RobotArm` class that you configure with a DOF count, link lengths, DH 
 - An `ipywidgets` panel with a DOF slider and text fields for link lengths, angles and target, plus Forward and Inverse buttons
 - A built-in test mode that checks the solvers
 
-### 🤖 Learning experiment
+### Learning experiment
 
 The last section of the notebook wraps the arm in a custom **Gym environment** and trains a **PPO** agent (Stable-Baselines3) to reach a target position, then animates the result.
 
 ---
 
-## 🚀 Run it
+## Run it
 
 The notebook is built for Google Colab, so upload `kinematics_calculator.ipynb` there and run the cells in order. To run locally:
 
@@ -76,7 +76,7 @@ The interactive simulator asks for a mode (`F` forward, `I` inverse or `T` test)
 
 ---
 
-## 📁 Files
+## Files
 
 | File | What it is |
 |---|---|
@@ -86,6 +86,10 @@ The interactive simulator asks for a mode (`F` forward, `I` inverse or `T` test)
 
 <div align="center">
 
+<img src="assets/footer.svg" width="100%" alt="Off the menu: from the archive" />
+
 Built while learning robot kinematics
+
+<sub>Part of <a href="https://github.com/aryankhanna1409">Aryan Khanna's portfolio</a>: one loop, five pours, from robots to AI systems.</sub>
 
 </div>
